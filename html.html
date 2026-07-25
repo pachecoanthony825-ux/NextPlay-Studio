@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <title>NextPlay Studios</title>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -84,6 +85,19 @@
     a:hover {
       text-decoration: underline;
     }
+    @media (max-width: 600px) {
+      body {
+        font-size: 1.4rem;
+      }
+      .terminal-box {
+        width: 95%;
+      }
+    }
+    body {
+      font-size: 1.2rem; /* texto más grande en móviles */
+      padding: 2vw;      /* márgenes que se adaptan al ancho */
+    }
+
 
   </style>
 </head>
@@ -124,7 +138,6 @@
 
     <section id="links" class="terminal-box">
       <h2>Links</h2>
-      <p>> Email: pachecoanthony825@gmail.com</p>
       <a href="https://www.youtube.com/@anthonypacheco2024">
         <p>> canal de youtube, AnthonyGames</p>
       </a>
