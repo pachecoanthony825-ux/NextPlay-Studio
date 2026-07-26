@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>NextPlay Studios</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    nav {
+      text-align: center; /* centra los enlaces */
+      margin: 20px 0;
+    }
+
+    nav a {
+      display: inline-block;       /* cada enlace como bloque */
+      border: 2px solid #00ff00;   /* caja verde */
+      padding: 10px;
+      margin: 5px;
+      text-decoration: none;
+      color: #00ff00;
+      transition: all 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      background-color: #001a00;
+      box-shadow: 0 0 5px #00ff00;
+      color: #3eff3e;
+      text-shadow: 0 0 2px #3eff3e;
+    }
+
+
+    body {
+      background-color: #000;
+      color: #00f500;
+      font-family: 'Press Start 2P', monospace;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      border-bottom: 2px solid #00f500;
+      padding: 10px;
+      text-align: center;
+      position: relative;
+    }
+
+    .gif-runner {
+      position: absolute;
+      bottom: 5px;   
+      left: 10px;
+      width: 100px;
+    }
+
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    footer {
+      border-top: 2px solid #00f500;
+      text-align: center;
+      padding: 10px;
+      font-size: 12px;
+    }
+
+    .terminal-box {
+      border: 1px solid #00ff00;
+      padding: 20px;
+      margin-top: 20px;
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      overflow-wrap: anywhere;
+      white-space: normal;
+    }
+
+    #fotos img {
+      border: 2px solid #00ff00;
+      display: block;
+      margin: 10px 0;
+      transition: all 0.3s ease-in-out;
+    }
+
+    #fotos img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #3eff3e, 0 0 20px #3eff3e;
+      border-color: #3eff3e;
+    }
+
+    p:hover, a:hover, h2:hover, footer:hover, h3:hover, .descarga:hover, img:hover, .gif-runner:hover {
+      color: #3eff3e;
+      text-shadow: 0 0 2px #3eff3e;
+      transition: all 0.3s ease-in-out;
+    }
+
+    a {
+      color: #00f500;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 1.4rem;
+      }
+      .terminal-box {
+        width: 95%;
+      }
+    }
+    body {
+      font-size: 1.2rem; /* texto más grande en móviles */
+      padding: 2vw;      /* márgenes que se adaptan al ancho */
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NextPlay Studios</h1>
+    <p>Desarrollo Indie cubano, gratis y para todos.</p>
+  </header>
+
+  <nav>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#equipo">Equipo</a>
+    <a href="#links">Links</a>
+    <a href="p0.html">Protocol 0</a>
+    <a href="noticiasa.html">Noticias</a>
+  </nav>
+
+  <main>
+    <section id="proyectos" class="terminal-box">
+      <h2>Proyectos</h2>
+      <p>> <a href="p0.html">Protocol 0</a> — Juego retro, plataformero, puzles, divertido.</p>
+    </section>
+
+    <section id="equipo" class="terminal-box">
+      <h2>Equipo</h2>
+      <p>> Anthony Pacheco — Fundador y creador de los juegos.</p>
+      <p>> Andy Ernesto — tester, ayudante.</p>
+      <p>> Anthony David — tester, ayudante, jugador del año (2026).</p>
+      <p>> Fernando García — tester, tirador de ideas, skyStudio.</p>
+    </section>
+
+    <section id="proyectos-extra" class="terminal-box">
+      <h2>Proyectos extra</h2>
+      <p>> Jatibonico The Game 1942 — Juego retro, RPG por misiones. En pausa, por NextPlay Studio.</p>
+      <p>> Solora — RPG, mundo abierto, medieval. Sin empezar, por Sky Studio y NextPlay Studio.</p>
+    </section>
+
+    <section id="links" class="terminal-box">
+      <h2>Links</h2>
+      <a href="https://www.youtube.com/@anthonypacheco2024">
+        <p>> Canal de YouTube, AnthonyGames</p>
+      </a>
+      <a href="https://anthonygamedev.itch.io">
+        <p>> Cuenta de itch.io, NextPlay Studio</p>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 NextPlay Studios — Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>

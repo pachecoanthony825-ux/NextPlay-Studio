@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <meta charset="UTF-8">
+  <title>NextPlay Studios</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    nav {
+      text-align: center; /* centra los enlaces */
+      margin: 20px 0;
+    }
+
+    nav a {
+      display: inline-block;       /* cada enlace como bloque */
+      border: 2px solid #00ff00;   /* caja verde */
+      padding: 10px;
+      margin: 5px;
+      text-decoration: none;
+      color: #00ff00;
+      transition: all 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      background-color: #001a00;
+      box-shadow: 0 0 5px #00ff00;
+      color: #3eff3e;
+      text-shadow: 0 0 2px #3eff3e;
+    }
+
+
+    body {
+      background-color: #000;
+      color: #00f500;
+      font-family: 'Press Start 2P', monospace;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      border-bottom: 2px solid #00f500;
+      padding: 10px;
+      text-align: center;
+      position: relative;
+    }
+
+    .gif-runner {
+      position: absolute;
+      bottom: 5px;   
+      left: 10px;
+      width: 100px;
+    }
+
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    footer {
+      border-top: 2px solid #00f500;
+      text-align: center;
+      padding: 10px;
+      font-size: 12px;
+    }
+
+    .terminal-box {
+      border: 1px solid #00ff00;
+      padding: 20px;
+      margin-top: 20px;
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      overflow-wrap: anywhere;
+      white-space: normal;
+    }
+
+    #fotos img {
+      border: 2px solid #00ff00;
+      display: block;
+      margin: 10px 0;
+      transition: all 0.3s ease-in-out;
+    }
+
+    #fotos img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #3eff3e, 0 0 20px #3eff3e;
+      border-color: #3eff3e;
+    }
+
+    p:hover, a:hover, h2:hover, footer:hover, h3:hover, .descarga:hover, img:hover, .gif-runner:hover {
+      color: #3eff3e;
+      text-shadow: 0 0 2px #3eff3e;
+      transition: all 0.3s ease-in-out;
+    }
+
+    a {
+      color: #00f500;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 1.4rem;
+      }
+      .terminal-box {
+        width: 95%;
+      }
+    }
+    body {
+      font-size: 1.2rem; /* texto más grande en móviles */
+      padding: 2vw;      /* márgenes que se adaptan al ancho */
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NextPlay Studios</h1>
+    <p>Noticias.</p>
+  </header>
+
+  <nav>
+    <a href="p0.html">protocol 0</a>
+    <a href="html.html">inicio</a>
+  </nav>
+  <main>
+    <section id="noticias" class="terminal-box">
+      <h2>Noticias</h2>
+
+      <article class="noticia">
+        <h3>> 26 de julio, 2026</h3>
+        <p>Inicio del desarrollo del trailer de <a href="p0.html">Protocol 0</a> y futuros shorts en el canal 
+           <a href="https://www.youtube.com/">YouTube</a>.
+        </p>
+      </article>
+
+      <article class="noticia">
+        <h3>> 1 de diciembre, 2025</h3>
+        <p>Se lanzó la primera versión jugable de Protocol 0 en PC la version 0.2.</p>
+      </article>
+      <article class="noticia">
+        <h3>> 28 de agosto, 2025</h3>
+        <p>Inicia el desarrollo de protocol 0 como un juego CO-OP aunque luego se cambio el genero.</p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 NextPlay Studios — Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
